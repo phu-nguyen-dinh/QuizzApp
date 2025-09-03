@@ -88,3 +88,60 @@ body{
 .home-content .start-btn:hover{
     background-color: rgb(43, 134, 74);
 }
+
+.popup-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(241, 241, 241);
+    width: 500px;
+    border-radius: 6px;
+    padding: 10px 25px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.popup-info h2 {
+    font-size: 50px;
+    color: rgb(90, 90, 90);
+}
+
+.popup-info .info {
+    display: block;
+    font-size: 18px;
+    color: rgb(90, 90, 90);
+    margin: 10px 0;
+    font-weight: 500;
+    margin: 4px 0;
+}
+
+.popup-info .btn-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 10px;
+    padding: 15px 0 7px;
+}
+
+.popup-info .btn-group .info-btn{
+    width: 48%;
+    height: 45px;
+    background-color: rgb(28, 192, 214);
+    border: 2px solid rgb(28, 192, 214);
+    outline: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-info .btn-group .info-btn:hover{
+    background-color: rgb(75, 121, 248);
+    border: 2px solid rgb(75, 121, 248);
+}
